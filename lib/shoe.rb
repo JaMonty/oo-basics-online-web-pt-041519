@@ -6,6 +6,7 @@ class Shoe
     @brand = brand
     @color = nil
     @size = nil
+    @material = nil
   end
   
   
@@ -29,7 +30,10 @@ class Shoe
     @size
   end
 
-
+ def material=(material)
+   @material = material
+ end
+ 
 end
 
 
