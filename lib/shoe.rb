@@ -4,9 +4,10 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    @color = nil
-    @size = nil
-    @material = nil
+    @color = "red"
+    @size = 9.5
+    @material = "leather"
+    @condition = "very good"
   end
   
   
