@@ -1,13 +1,13 @@
 class Shoe
  
 
-def initialize(shoe)
-  @shoe = shoe
-end
-
-def shoe
-  @shoe
-end
+  def initialize(shoe)
+    @shoe = shoe
+  end
+  
+  def shoe
+    @shoe
+  end
 
 
   def initialize(brand)
